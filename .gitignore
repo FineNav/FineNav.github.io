@@ -1,0 +1,8 @@
+site/
+.venv/
+.multirepo-temp/
+temp_dir/
+__pycache__/
+*.pyc
+/docs/*/
+!/docs/assets/
