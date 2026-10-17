@@ -16,9 +16,24 @@ class Links(HTMLParser):
                           (tag in ('img', 'script') and key == 'src')):
                 self.targets.append(value)
 
-required = ('index.html', 'zh/index.html', 'finenav-engine/index.html',
-            'zh/finenav-engine/index.html', 'finenav-engine/guide/quickstart/index.html',
-            'zh/finenav-engine/guide/quickstart/index.html')
+module_pages = (
+    'index.html',
+    'guide/installation/index.html',
+    'guide/quickstart/index.html',
+    'guide/choose-algorithms/index.html',
+    'guide/worldview/index.html',
+    'guide/cpp-application/index.html',
+    'guide/behavior-tree/index.html',
+    'guide/plugins/planners/index.html',
+    'guide/plugins/maps/index.html',
+    'guide/custom-planner/index.html',
+    'guide/custom-map/index.html',
+)
+required = [prefix + page
+            for prefix in ('', 'zh/')
+            for page in ('index.html', 'slambox/index.html', 'icra/index.html')]
+required += [prefix + 'finenav-engine/' + page
+             for prefix in ('', 'zh/') for page in module_pages]
 errors = []
 for path in required:
     if not (ROOT / path).is_file():

@@ -1,27 +1,30 @@
 # FineNav developer documentation
 
 FineNav provides tools and components for building robot navigation applications.
-Use FineNav-Engine to assemble Maps, Planners, and a WorldView in a ROS 2 C++ application.
 
-## Start with FineNav-Engine
+## FineNav-Engine
 
-1. Read the [Engine overview](finenav-engine/index.md) to understand the components.
-2. Follow the [Quickstart](finenav-engine/guide/quickstart.md) to download the source,
-   install dependencies, build the workspace, and run the example.
-3. [Choose a Map and Planner](finenav-engine/guide/choose-algorithms.md),
-   [write a WorldView](finenav-engine/guide/worldview.md), and
-   [configure your application](finenav-engine/guide/cpp-application.md).
+Choose Map and Planner components, connect them through a WorldView, assemble
+a control pipeline in C++, and configure a Behavior Tree for the task.
 
-## Components and extensions
+- [Overview](finenav-engine/index.md)
+- [Installation](finenav-engine/guide/installation.md): environment setup, source download, and compilation.
+- Getting Started, based on `finenav_example`:
+    1. [Run the example](finenav-engine/guide/quickstart.md)
+    2. [Choose Map and Planner](finenav-engine/guide/choose-algorithms.md)
+    3. [Write a WorldView](finenav-engine/guide/worldview.md)
+    4. [Assemble a control pipeline](finenav-engine/guide/cpp-application.md)
+    5. [Configure a Behavior Tree](finenav-engine/guide/behavior-tree.md)
+- [finenav_planners](finenav-engine/guide/plugins/planners.md)
+- [finenav_maps](finenav-engine/guide/plugins/maps.md)
 
-Browse the [plugin catalogue](finenav-engine/guide/plugins/index.md) for the current
-component information. For your own algorithms, see
-[Custom Planner](finenav-engine/guide/custom-planner.md) and
-[Custom Map](finenav-engine/guide/custom-map.md).
+## FineNav-SlamBox
 
-Dedicated documentation from `finenav_map` and `finenav_planner` will be added
-as those repositories provide their documentation sources.
+[Documentation placeholder](slambox.md). Repository-specific guides will be added later.
 
-English is the default language. Chinese pages are available through the language
-switcher; pages without a Chinese translation display their English content.
-Some linked source repositories require GitHub access.
+## FineNav (ICRA version)
+
+[Documentation placeholder](icra.md). Repository-specific guides will be added later.
+
+Use the language switcher for English or Chinese. Some linked source repositories
+require GitHub access.

@@ -1,24 +1,29 @@
 # FineNav 开发者文档
 
-FineNav 提供构建机器人导航应用的工具与组件。
-通过 FineNav-Engine，在 ROS 2 C++ 应用中装配 Map、Planner 和 WorldView。
+FineNav 提供用于构建机器人导航应用的工具与组件。
 
-## 从 FineNav-Engine 开始
+## FineNav-Engine
 
-1. 阅读 [Engine 项目总览](finenav-engine/index.md)，了解组件职责。
-2. 按照[快速开始](finenav-engine/guide/quickstart.md)下载源码、安装依赖、
-   编译工作空间并运行示例。
-3. [选择 Map 和 Planner](finenav-engine/guide/choose-algorithms.md)，
-   [编写 WorldView](finenav-engine/guide/worldview.md)，
-   然后[配置应用](finenav-engine/guide/cpp-application.md)。
+选择 Map 和 Planner，通过 WorldView 对接地图查询，
+在 C++ 中组装控制 pipeline，再通过行为树配置任务执行方式。
 
-## 组件与扩展
+- [项目总览](finenav-engine/index.md)
+- [如何安装](finenav-engine/guide/installation.md)：环境配置、下载源码与编译。
+- 基于 `finenav_example` 的入门教程：
+    1. [运行示例，查看效果](finenav-engine/guide/quickstart.md)
+    2. [选择 Map 和 Planner](finenav-engine/guide/choose-algorithms.md)
+    3. [编写 WorldView](finenav-engine/guide/worldview.md)
+    4. [组装控制 Pipeline](finenav-engine/guide/cpp-application.md)
+    5. [按需求配置行为树](finenav-engine/guide/behavior-tree.md)
+- [finenav_planners](finenav-engine/guide/plugins/planners.md)
+- [finenav_maps](finenav-engine/guide/plugins/maps.md)
 
-通过[插件目录](finenav-engine/guide/plugins/index.md)查阅当前组件信息。
-需要开发自己的算法时，阅读[自定义 Planner](finenav-engine/guide/custom-planner.md)
-和[自定义 Map](finenav-engine/guide/custom-map.md)。
+## FineNav-SlamBox
 
-`finenav_map` 和 `finenav_planner` 仓库提供文档源后，将接入各自的模块说明。
+[文档占位](slambox.md)，后续补充该仓库的专属使用说明。
 
-英文是默认语言，可通过语言切换器查看中文；尚未翻译的页面显示英文内容。
-部分源码链接需要对应的 GitHub 仓库访问权限。
+## FineNav（ICRA 版本）
+
+[文档占位](icra.md)，后续补充该仓库的专属使用说明。
+
+可通过语言切换器查看中英文版本。部分源码链接需要对应的 GitHub 仓库访问权限。

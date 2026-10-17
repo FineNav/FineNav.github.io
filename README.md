@@ -11,11 +11,12 @@ Markdown and `mkdocs.yml`; it does not deploy a separate site.
 | FineNav-Engine | `dev` | `FineNav/FineNav-Engine/docs/` | Imported |
 | finenav_map | To be confirmed | Repository-owned `docs/` | Not yet imported |
 | finenav_planner | To be confirmed | Repository-owned `docs/` | Not yet imported |
+| FineNav-SlamBox | — | Aggregator placeholder | Reserved |
+| FineNav (ICRA version) | — | Aggregator placeholder | Reserved |
 
 English uses `.md`. Chinese uses the same path with a `.zh.md` suffix.
-Missing Chinese translations fall back to English. The ecosystem and Engine
-homepages have Chinese translations; the remaining Engine pages currently use
-English fallback.
+Missing Chinese translations fall back to English. The ecosystem homepage and
+all active Engine guides and the SlamBox / ICRA placeholders have Chinese translations.
 
 ## Deployment
 
