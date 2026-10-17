@@ -13,11 +13,13 @@ class Links(HTMLParser):
     def handle_starttag(self, tag, attrs):
         for key, value in attrs:
             if value and ((tag in ('a', 'link') and key == 'href') or
-                          (tag in ('img', 'script') and key == 'src')):
+                          (tag in ('img', 'script', 'video', 'source') and key == 'src') or
+                          (tag == 'video' and key == 'poster')):
                 self.targets.append(value)
 
 module_pages = (
     'index.html',
+    'guide/why-finenav/index.html',
     'guide/installation/index.html',
     'guide/quickstart/index.html',
     'guide/choose-algorithms/index.html',

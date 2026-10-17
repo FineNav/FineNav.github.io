@@ -1,0 +1,111 @@
+.md-typeset a.finenav-cover {
+  display: block;
+  margin: 0 0 1.5rem;
+  background: #fff;
+}
+
+.md-typeset a.finenav-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.md-typeset a.finenav-cover:focus-visible {
+  outline: 2px solid var(--md-primary-fg-color);
+  outline-offset: 4px;
+}
+
+.md-typeset .finenav-demo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 1.5rem;
+  background: #000;
+}
+
+.finenav-entry-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+  max-width: 38rem;
+  margin: 2rem 0;
+}
+
+.md-typeset a.finenav-entry-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  padding: 1.6rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.65rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.md-typeset a.finenav-entry-card:hover,
+.md-typeset a.finenav-entry-card:focus-visible {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0.3rem 1rem rgb(0 0 0 / 6%);
+  transform: translateY(-3px);
+}
+
+.md-typeset a.finenav-entry-card:focus-visible {
+  outline: 2px solid var(--md-primary-fg-color);
+  outline-offset: 4px;
+}
+
+.finenav-entry-icon {
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  margin-bottom: 1rem;
+  border-radius: 0.6rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 8%, var(--md-default-bg-color));
+  color: var(--md-primary-fg-color);
+}
+
+.finenav-entry-icon svg {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.finenav-entry-title {
+  font-size: 1.1rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.finenav-entry-description {
+  margin-top: 0.65rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.65;
+}
+
+.finenav-entry-action {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding-top: 1.2rem;
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .finenav-entry-grid {
+    grid-template-columns: 1fr;
+    max-width: 20rem;
+    margin: 1.4rem auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset a.finenav-entry-card {
+    transition: none;
+    transform: none;
+  }
+}
