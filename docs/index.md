@@ -33,6 +33,6 @@ Choose your Map and Planner, connect them through a WorldView, and assemble your
 
 [Documentation placeholder](slambox.md). Repository-specific guides will be added later.
 
-## FineNav (ICRA version)
+## FineNav (ICRA 2026)
 
 [Documentation placeholder](icra.md). Repository-specific guides will be added later.

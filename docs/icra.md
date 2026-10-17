@@ -1,4 +1,4 @@
-# FineNav (ICRA version)
+# FineNav (ICRA 2026)
 
 Documentation for this project will be added here. This page reserves its place
 in the FineNav documentation site; installation and usage instructions are not yet available.
