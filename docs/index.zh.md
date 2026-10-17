@@ -29,7 +29,7 @@ FineNav 提供构建机器人导航应用的工具与组件。
   </a>
 </div>
 
-## FineNav-SlamBox
+## FineNav-SlamToolbox
 
 [文档占位](slambox.md)，后续补充该仓库的专属使用说明。
 

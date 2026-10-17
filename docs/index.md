@@ -29,7 +29,7 @@ Choose your Map and Planner, connect them through a WorldView, and assemble your
   </a>
 </div>
 
-## FineNav-SlamBox
+## FineNav-SlamToolbox
 
 [Documentation placeholder](slambox.md). Repository-specific guides will be added later.
 
