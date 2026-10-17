@@ -8,7 +8,7 @@ Markdown and `mkdocs.yml`; it does not deploy a separate site.
 
 | Module | Branch | Source | Status |
 | --- | --- | --- | --- |
-| FineNav-Engine | `dev` | `FineNav/FineNav-Engine/docs/` | Imported |
+| FineNav-Engine | `main` | `FineNav/FineNav-Engine/docs/` | Imported |
 | finenav_map | To be confirmed | Repository-owned `docs/` | Not yet imported |
 | finenav_planner | To be confirmed | Repository-owned `docs/` | Not yet imported |
 | FineNav-SlamBox | — | Aggregator placeholder | Reserved |

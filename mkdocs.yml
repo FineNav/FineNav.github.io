@@ -76,6 +76,6 @@ validation:
 
 nav:
   - Overview: index.md
-  - finenav-engine: '!import https://github.com/FineNav/FineNav-Engine?branch=dev'
+  - finenav-engine: '!import https://github.com/FineNav/FineNav-Engine?branch=main'
   - FineNav-SlamToolbox: slambox.md
   - FineNav (ICRA 2026): icra.md
