@@ -15,7 +15,7 @@ FineNav 提供构建机器人导航应用的工具与组件。
 ## FineNav-Engine
 
 <div class="finenav-entry-grid">
-  <a class="finenav-entry-card" href="finenav-engine/guide/installation/">
+  <a class="finenav-entry-card" href="finenav-engine/">
     <span class="finenav-entry-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m14 5 5 5M4 20l4-1L20 7a2.1 2.1 0 0 0-3-3L5 16l-1 4Z"/><path d="M13 20h7"/></svg></span>
     <span class="finenav-entry-title">快速开始</span>
     <span class="finenav-entry-description">跟随分步教程，从安装编译到运行你的第一个 FineNav 示例。</span>
